@@ -8,8 +8,6 @@ onready var rng = RandomNumberGenerator.new()
 
 func _ready():
 	rng.randomize()
-	
-	
 	timer.set_wait_time(2)
 	timer.connect("timeout", self, "randomize_movement")
 	timer.autostart = true
