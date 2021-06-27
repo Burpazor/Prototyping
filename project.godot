@@ -21,7 +21,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Prototype"
-run/main_scene="res://_World/Arena/Arena.tscn"
+run/main_scene="res://_World/TestSave/TestSave.tscn"
 config/icon="res://icon.png"
 
 [gdnative]
